@@ -76,7 +76,7 @@ elif category == "Temperature":
     to_unit = st.selectbox("To", ["Celsius", "Fahrenheit", "Kelvin"])
     value = st.number_input("Enter Value", format="%.2f")
     if st.button("Convert"):
-        st.success(f"### Converted Value : {temp_convert(value, from_unit, to_unit) :.1f} {to_unit}")
+        st.success(f"Converted Value : {temp_convert(value, from_unit, to_unit) :.1f} {to_unit}")
 elif category == "Time":
    from_unit = st.selectbox("From", ["Hours", "Minutes", "Days"])
    to_unit = st.selectbox("To", ["Minutes", "Hours", "Days"])
