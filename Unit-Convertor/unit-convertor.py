@@ -34,6 +34,12 @@ def time_convert(value, from_unit, to_unit):
       return value/3600
     elif from_unit == "Seconds" and to_unit == "Days":
       return value/86400
+    elif from_unit == "Days" and to_unit == "Hours":
+      return value*24
+    elif from_unit == "Days" and to_unit == "Minutes":
+      return value*24*60
+    elif from_unit == "Days" and to_unit == "Seconds":
+      return value*24*60*60
 def temp_convert(value, from_unit, to_unit):
     if from_unit == to_unit:
         return value
