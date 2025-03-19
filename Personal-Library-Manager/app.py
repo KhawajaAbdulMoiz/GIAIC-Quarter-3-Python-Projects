@@ -2,7 +2,7 @@ import streamlit as st
 import json
 
 # Setting page 
-st.set_page_config(page_title="Growth Mindset", page_icon="📚")
+st.set_page_config(page_title="Library Manager", page_icon="📚")
 st.title("📚 Personal Library Manager ")
 
 class BookCollection:
