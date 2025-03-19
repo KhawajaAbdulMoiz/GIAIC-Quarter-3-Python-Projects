@@ -35,7 +35,7 @@ if wins:
 else:
     st.info("🌟 Big or small, every achievement counts. Share something you're proud of!")
 # Footer
-st.write("---")
+st.write("----")
 # Adding some Css
 st.markdown(
     """
